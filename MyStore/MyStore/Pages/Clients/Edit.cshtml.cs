@@ -14,6 +14,8 @@ namespace MyStore.Pages.Clients
         {
             
             String id = Request.Query["id"];
+
+
             try
             {
                 String connectionString = "Data Source=.\\sqlexpress;Initial Catalog=mystore;Integrated Security=True;Encrypt=False";
